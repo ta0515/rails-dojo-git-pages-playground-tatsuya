@@ -16,6 +16,12 @@ const signalCards = [
     tag: "script",
     detail: "JavaScript の配列に新しい項目を追加しました。",
     level: "next"
+  },
+   {
+    title: "公開ページを更新",
+    tag: "pages",
+    detail: "push 後に GitHub Pages の表示が変わることを確認しました。",
+    level: "live"
   }
 ];
 
