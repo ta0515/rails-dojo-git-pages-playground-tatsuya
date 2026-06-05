@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Git Signal Board</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="eyebrow">Rails Dojo / Git Practice</p>
+      <h1>Git Signal Board</h1>
+      <p class="lead">
+        push した変更が GitHub Pages に反映されることを確認するための小さなページです。
+      </p>
+    </header>
+
+    <main>
+      <section class="status-panel" aria-labelledby="status-heading">
+        <div>
+          <p class="panel-label">Current status</p>
+          <h2 id="status-heading">main branch is live</h2>
+        </div>
+        <button class="signal-button" type="button" data-randomize>
+          Signal
+        </button>
+      </section>
+
+      <section class="board-section" aria-labelledby="board-heading">
+        <div class="section-heading">
+          <p class="panel-label">Push log</p>
+          <h2 id="board-heading">今日の変更ポイント</h2>
+        </div>
+        <div class="signal-grid" data-signal-list></div>
+      </section>
+
+      <section class="release-note" aria-labelledby="release-heading">
+        <p class="panel-label">Published note</p>
+        <h2 id="release-heading">GitHub Actions で公開中</h2>
+        <p>
+          この文章や色、カードの内容を変更して commit すると、push 後に公開ページも更新されます。
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
