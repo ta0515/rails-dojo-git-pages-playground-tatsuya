@@ -166,7 +166,7 @@ h3 {
 .release-note {
   margin-bottom: 48px;
   padding: 24px;
-  border-left: 8px solid var(--rose);
+  border-left: 8px solid var(--cyan);
 }
 
 .release-note p:last-child {
